@@ -40,7 +40,7 @@ public class Main {
                 if (scanner.hasNextInt()) {
                     speed = scanner.nextInt();
 
-                    if (speed > 0 && speed < 250) {
+                    if (speed > 0 && speed <= 250) {
                         validInput = true;
                     } else {
                         System.out.println("Ошибка! Скорость должна быть от 0 до 250. Попробуйте еще раз.");
